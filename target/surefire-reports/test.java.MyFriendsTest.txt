@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: test.java.MyFriendsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.612 s <<< FAILURE! - in test.java.MyFriendsTest
+testAcceptRequest  Time elapsed: 0.041 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at test.java.MyFriendsTest.testAcceptRequest(MyFriendsTest.java:50)
+
+testGetRequest  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at test.java.MyFriendsTest.testGetRequest(MyFriendsTest.java:40)
+

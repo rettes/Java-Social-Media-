@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: test.java.PostFunctionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.498 s <<< FAILURE! - in test.java.PostFunctionTest
+testAddLikeDisLike  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.PostFunctionTest.testAddLikeDisLike(PostFunctionTest.java:86)
+
+testAddPost  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.PostFunctionTest.testAddPost(PostFunctionTest.java:30)
+
+testAddTags  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.PostFunctionTest.testAddTags(PostFunctionTest.java:49)
+
+testAddReply  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.PostFunctionTest.testAddReply(PostFunctionTest.java:68)
+
